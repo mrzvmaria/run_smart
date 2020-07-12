@@ -30,6 +30,36 @@
             margin: 36px auto 0;
         }
     }
+    .carousel {
+        padding-bottom: 25px;
+    }
+    .feed {
+        &__item {
+            padding: 0px 40px;
+        }
+    }
+    .footer {
+        height: 500px;
+        &__info {
+            width: 341px;
+            height: 200px;
+            padding: 42px 44px 42px;
+        }
+        &__addr {
+            margin-bottom: 14px;
+            font-size: 16px;
+        }
+        &__phone {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        &__social {
+            &-item {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
 }
 
 @media (max-width: 767px) {
